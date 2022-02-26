@@ -33,7 +33,7 @@ for Object in f:
                                             print()
                                             fa.write(many + "\n")
                                             fa.write(second + "\n")
-                                            fa.write(final + "\n")
+                                            fa.write(final + "\n\n")
                                             fa.flush()
     proc2 = pluralize(rand)
 fa.close()
