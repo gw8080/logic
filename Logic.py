@@ -1,6 +1,5 @@
 #Count of object expression -> success/requirement expression -> action-object subset non/commonality expression = Generalisation.
 from pattern.en import pluralize, singularize
-from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
 import random
 f = open('objects.txt',"r")
