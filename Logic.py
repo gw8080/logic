@@ -3,7 +3,7 @@ from pattern.en import pluralize, singularize
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet as wn
 import random
-f = open('noun.txt',"r")
+f = open('objects.txt',"r")
 fa = open("logic_output.txt", "w")
 
 
