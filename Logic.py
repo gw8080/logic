@@ -4,8 +4,6 @@ from nltk.corpus import wordnet as wn
 import random
 f = open('objects.txt',"r")
 fa = open("logic_output.txt", "w")
-
-
 for Object in f:
     proc = wn.synsets(Object.strip("\n"))
     if proc:
